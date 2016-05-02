@@ -20,8 +20,8 @@ RUN /root/docker-files/scripts/download_openhab.sh
 #
 # Download HABMIN
 #
-RUN echo "Download HABMin2"
-RUN wget -q -P /opt/openhab/addons-available/addons/ https://github.com/cdjackson/HABmin2/releases/download/0.0.15/org.openhab.ui.habmin_2.0.0.SNAPSHOT-0.0.15.jar 
+# RUN echo "Download HABMin2"
+# RUN wget -q -P /opt/openhab/addons-available/addons/ https://github.com/cdjackson/HABmin2/releases/download/0.0.15/org.openhab.ui.habmin_2.0.0.SNAPSHOT-0.0.15.jar 
 
 #
 # Download Openhab 1.x dependencies
